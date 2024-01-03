@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Croissant One', cursive;
+}
+.main_container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.rightbox{
+    width: 40%;
+    height: 100vh;
+    background-color: rgba(17, 17, 17, 0.963);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.leftbox{
+    width: 60%;
+    height: 100vh;
+    background-image:url(login-bg.jpg) ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.leftbox h2{
+    color: aliceblue;
+    font-size: 45px;
+}
+.leftbox button{
+    width: 270px;
+    height: 40px;
+    background-color: transparent;
+    color: antiquewhite;
+    border: 1px solid white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+form{
+    width: 100%;
+    height: auto;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form label{
+    font-size: 18px;
+    color: aliceblue;
+    margin-top: 20px;
+    margin-right: 220px;
+}
+#emp{
+    margin-left: 80px;
+}
+form input{
+    width: 55%;
+    height: 35px;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+form hr{
+    width: 300px;
+    height: 1px;
+    margin-top: 20px;
+}
+form button{
+    width: 55%;
+    height: 35px;
+    background-color:rgb(39, 39, 253);
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: antiquewhite;
+    font-size: 18px;
+
+}
+form p{
+    margin-top: 20px;
+    color: aliceblue;
+}
+form a{
+    color:rgb(39, 39, 253);
+    text-decoration: none;
+    font-size: 17px;
+    margin-top: 20px;
+    font-weight: 70;
+}
+form span{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+form span hr{
+    width: 1px;
+    height: 15px;
+}
+form span a{
+    color: antiquewhite;
+    font-size: 14px;
+}
+#btn{
+    background-color: rgb(139, 139, 139);
+    color: antiquewhite;
+    font-size: 18px;
+}
+form a:hover{
+    border-bottom: 1px solid rgb(39, 39, 253);
+}
+form span a:hover{
+    color:  rgb(39, 39, 253);
+}
+
+@media(max-width:768px;){
+    
+}
